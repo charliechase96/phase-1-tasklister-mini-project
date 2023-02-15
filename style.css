@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(164, 104, 255), rgb(136, 68, 255));
 }
 
 button {
@@ -34,4 +34,10 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+input {
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #333;
+  border: 2px solid #333;
 }
